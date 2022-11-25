@@ -1,14 +1,14 @@
-package cn.monster;
+package monster;
 
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.DefaultSingletonBeanRegistry;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 import java.lang.reflect.Field;
 import java.util.Map;
-// 启动需打开此注释，并停止掉其他类的@SpringBootApplication
-//@SpringBootApplication
+@SpringBootApplication
 public class part1 {
 
     public static void main(String[] args) throws Exception {
